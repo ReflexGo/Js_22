@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label for="hour">Введіть годину:</label>
+    <input type="number" id="hour" min="0" max="23">
+    <button onclick="checkTime()">Перевірити</button>
+    <p id="greeting"></p>
+
+    <label for="name">Введіть ім'я:</label>
+    <input type="text" id="name">
+    <button onclick="greet()">Привітати</button>
+    <p id="greeting"></p>
+  
+    <label for="username">Ім'я користувача:</label>
+    <input type="text" id="username">
+    <br>
+    <label for="password">Пароль:</label>
+    <input type="password" id="password">
+    <br>
+    <button onclick="authenticate()">Увійти</button>
+    <p id="message"></p>
+  
+    <label for="number1">Число 1:</label>
+    <input type="number" id="number1">
+    <br>
+    <label for="number2">Число 2:</label>
+    <input type="number" id="number2">
+    <br>
+    <label for="number3">Число 3:</label>
+    <input type="number" id="number3">
+    <br>
+    <button onclick="findMax()">Знайти максимальне</button>
+    <p id="result"></p>
+
+
+
+
+    <script src="index.js"></script>
+
+    
+</body>
+</html>
